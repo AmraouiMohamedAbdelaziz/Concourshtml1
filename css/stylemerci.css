@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+h1{
+    margin: 0;
+    padding: 40vh;
+    color: azure;
+    background-color: rgba(36, 36, 36, 0.829);
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+p{
+    text-align: center;
+    font-size: 1.5em;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
