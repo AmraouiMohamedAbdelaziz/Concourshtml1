@@ -1,19 +1,40 @@
+html{
+    
+    font-family: 'Open Sans', sans-serif;
+}
 body{
     margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+header div{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(/img/yarrow-7334664_1280.jpg) no-repeat center;
+    background-size: cover;
 }
 h1{
     margin: 0;
-    padding: 40vh;
+    padding: 46vh;
     color: azure;
-    background-color: rgba(36, 36, 36, 0.829);
+    background-color: rgba(0, 0, 0, 0.389);
     text-align: center;
-    border-bottom: 2px solid red;
 }
 p{
+    position: relative;
+    bottom: 300px;
     text-align: center;
     font-size: 1.5em;
 }
 a{
-    color: red;
+    color: aliceblue;
+    font-weight: bolder;
+    border: 0.5px solid white;
+    padding: 8px;
+    border-radius: 100px;
     text-decoration: none;
+}
+a:hover{
+    background-color: rgba(240, 248, 255, 0.212);
 }
