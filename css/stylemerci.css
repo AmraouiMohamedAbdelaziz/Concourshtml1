@@ -1,11 +1,13 @@
 html{
     
     font-family: 'Open Sans', sans-serif;
+    
 }
 body{
     margin: 0;
     height: 100vh;
     overflow: hidden;
+    
 }
 header div{
     margin: 0;
@@ -13,6 +15,7 @@ header div{
     height: 100vh;
     background: url(https://cdn.pixabay.com/photo/2022/07/20/17/48/yarrow-7334664_1280.jpg) no-repeat center;
     background-size: cover;
+    transition: 0.4s;
 }
 h1{
     margin: 0;
@@ -34,6 +37,7 @@ a{
     padding: 8px;
     border-radius: 100px;
     text-decoration: none;
+    transition: 0.4s;
 }
 a:hover{
     background-color: rgba(240, 248, 255, 0.212);

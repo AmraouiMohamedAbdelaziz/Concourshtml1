@@ -355,22 +355,20 @@ input{
     margin-bottom: 15px;
 }
 
-.inscription-Button{
-    margin:10px 6px;
-    color: aliceblue;
-}
-
-
 
 button{
-    width: auto;
     padding: 12px;
-    box-shadow: 2px 0px 12px 1px rgba(196, 196, 196, 0.745) ;
-    border: 0;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    border-radius: 80px;
+    border: 0.5px solid rgba(255, 255, 255, 0);
+    background-color: #228e94b4;
+    transition: 0.4s linear;
 }
 button:hover{
-    background-color: aquamarine;
-    transition-duration: 1s;
+    background-color: #1a97a2b6;
+    box-shadow:0 4px 12px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    border: 0.5px solid white;
+    
     margin: 0 auto;
 }
 
